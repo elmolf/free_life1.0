@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_SD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\RTC;..\HARDWARE\RTC;..\USMART;..\HARDWARE\TIMER;..\HARDWARE\AIRCONDIT</IncludePath>
+              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\RTC;..\HARDWARE\RTC;..\USMART;..\HARDWARE\TIMER;..\HARDWARE\AIRCONDIT;..\HARDWARE\TEMPERATURE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -447,6 +447,11 @@
               <FileName>aircondit.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\AIRCONDIT\aircondit.c</FilePath>
+            </File>
+            <File>
+              <FileName>temperature.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\TEMPERATURE\temperature.c</FilePath>
             </File>
           </Files>
         </Group>
